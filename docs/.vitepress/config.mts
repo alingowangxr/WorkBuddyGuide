@@ -61,6 +61,10 @@ export default withMermaid(
         { text: "开始阅读", link: "/bluebook/" },
         { text: "阅读指南", link: "/reading-guide" },
         { text: "参与共创", link: "/community/contributing" },
+        {
+          text: "交流群",
+          items: [{ component: "GroupQrMenu" }],
+        },
       ],
       sidebar: bluebookSidebar,
       socialLinks: [
