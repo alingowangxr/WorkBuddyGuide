@@ -112,7 +112,9 @@ WorkBuddyGuide
 
 ## Star 趋势图
 
-[![Star History Chart](https://api.star-history.com/svg?repos=AlephAITech/WorkBuddyGuide&type=Date)](https://www.star-history.com/#AlephAITech/WorkBuddyGuide&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=AlephAITech/WorkBuddyGuide&type=Date)](https://www.star-history.com/?type=date&repos=AlephAITech%2FWorkBuddyGuide)
+
+
 
 ## 开源协议
 
