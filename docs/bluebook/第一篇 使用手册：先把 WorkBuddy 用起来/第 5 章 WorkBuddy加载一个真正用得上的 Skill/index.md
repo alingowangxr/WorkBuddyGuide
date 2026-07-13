@@ -103,9 +103,18 @@ scripts/check-ai-phrases.py
 
 这是最核心的问题。
 
-<div class="embed-note">
-  <strong>配套对照表：</strong>本节在飞书原文中包含一张“Prompt 与 Skill”的对照表。当前离线版本保留了表格入口；如有访问权限，可<a href="https://my.feishu.cn/sheets/LTSAsjfnIhVDmyt0ApLcBRedndh?sheet=hnuXuj" target="_blank" rel="noreferrer">打开飞书源表</a>。
-</div>
+| 维度 | Prompt | Skill |
+| --- | --- | --- |
+| 核心作用 | 描述当前任务 | 定义一类任务怎么做 |
+| 生命周期 | 通常针对一次请求 | 长期复用 |
+| 触发方式 | 用户主动输入 | Agent 自动选择或用户显式调用 |
+| 载体 | 主要是文本 | 文件夹 |
+| 内容 | 指令、上下文、示例 | 指令、脚本、资料、模板、资源 |
+| 上下文占用 | 通常直接进入上下文 | 按需加载 |
+| 复用 | 经常复制粘贴 | 原生可复用 |
+| 分享 | Prompt 文本 | 完整能力包 |
+| 执行 | 本身只是指令 | 可以调用附带脚本和工具 |
+| 模型参数 | 不改变 | 同样不改变 |
 
 最简单的理解是：
 
