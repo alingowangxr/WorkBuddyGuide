@@ -920,6 +920,31 @@ html:not(.dark) .vp-doc .vp-code span {
   box-shadow: 5px 5px 0 color-mix(in srgb, var(--wb-ink) 14%, transparent);
 }
 
+.vp-doc img[data-wb-zoomable] {
+  cursor: zoom-in;
+  transition: border-color 150ms ease, box-shadow 150ms ease,
+    transform 150ms ease;
+}
+
+@media (hover: hover) {
+  .vp-doc img[data-wb-zoomable]:hover {
+    border-color: var(--wb-ink);
+    box-shadow: 6px 6px 0 var(--wb-acid);
+    transform: translate(-1px, -1px);
+  }
+}
+
+.vp-doc img[data-wb-zoomable]:focus-visible {
+  border-color: var(--wb-ink);
+  outline: 3px solid var(--wb-acid);
+  outline-offset: 5px;
+  box-shadow: 6px 6px 0 var(--wb-ink);
+}
+
+body.wb-lightbox-open {
+  overflow: hidden;
+}
+
 .vp-doc video {
   display: block;
   width: 100%;

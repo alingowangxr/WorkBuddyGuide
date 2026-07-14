@@ -1,7 +1,8 @@
-import { defineAsyncComponent } from "vue";
+import { defineAsyncComponent, h } from "vue";
 import DefaultTheme from "vitepress/theme-without-fonts";
 import GroupQrMenu from "./components/GroupQrMenu.vue";
 import HomePage from "./components/HomePage.vue";
+import ImageLightbox from "./components/ImageLightbox.vue";
 
 import "./fonts.css";
 import "./style.css";
@@ -39,6 +40,10 @@ const scrollActiveSidebarItemIntoView = () => {
 
 export default {
   extends: DefaultTheme,
+  Layout: () =>
+    h(DefaultTheme.Layout, null, {
+      "layout-bottom": () => h(ImageLightbox),
+    }),
   enhanceApp({ app, router }) {
     app.component("GroupQrMenu", GroupQrMenu);
     app.component("HomePage", HomePage);
