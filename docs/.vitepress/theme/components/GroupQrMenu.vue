@@ -16,14 +16,14 @@ withDefaults(
         src="/community/workbuddy-wechat-group.jpg?v=20260715"
         width="396"
         height="396"
-        alt="WorkBuddy 微信交流群二维码"
+        alt="WorkBuddy 微信交流群二維碼"
         loading="lazy"
         decoding="async"
       />
     </div>
     <figcaption>
       <span>WECHAT GROUP</span>
-      微信扫码加入交流群
+      微信掃碼加入交流群
     </figcaption>
   </figure>
 </template>

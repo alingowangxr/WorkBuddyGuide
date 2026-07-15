@@ -1,8 +1,8 @@
 ---
-title: 帮你解决 WorkBuddy 使用场景问题
+title: 幫你解決 WorkBuddy 使用場景問題
 titleTemplate: false
-description: 如果你不知道如何用 WorkBuddy 解决真实工作问题，可以提交场景问卷。我们会评估需求、联系沟通，并将具有复用价值的解决方案制作成开源 Case。
-breadcrumbTitle: 帮你解决
+description: 如果你不知道如何用 WorkBuddy 解決真實工作問題，可以提交場景問卷。我們會評估需求、聯絡溝通，並將具有複用價值的解決方案製作成開源 Case。
+breadcrumbTitle: 幫你解決
 aside: false
 outline: false
 pageClass: help-you-page
@@ -11,12 +11,12 @@ pageClass: help-you-page
 <div class="help-hero">
   <div class="help-hero__copy">
     <p class="help-pixel-label">SCENARIO SUPPORT · OPEN CASES</p>
-    <h1>有工作场景，不知道怎么用 WorkBuddy 解决？</h1>
-    <p class="help-hero__lead">把你的真实问题告诉我们。我们会阅读每一份场景问卷，评估 WorkBuddy 是否能够解决；如果需要补充信息，我们会联系你进一步沟通。</p>
-    <p>具有代表性和复用价值的问题，我们会尝试做成完整 Case，写清使用的 Skill、操作过程、任务描述和最终效果，并开源到社区案例集，帮助更多遇到同类问题的人。</p>
+    <h1>有工作場景，不知道怎麼用 WorkBuddy 解決？</h1>
+    <p class="help-hero__lead">把你的真實問題告訴我們。我們會閱讀每一份場景問卷，評估 WorkBuddy 是否能夠解決；如果需要補充資訊，我們會聯絡你進一步溝通。</p>
+    <p>具有代表性和複用價值的問題，我們會嘗試做成完整 Case，寫清使用的 Skill、操作過程、任務描述和最終效果，並開源到社群案例集，幫助更多遇到同類問題的人。</p>
     <div class="help-hero__actions">
-      <a class="help-button help-button--primary" href="#scenario-survey">扫码填写问卷</a>
-      <a class="help-button" href="/cases/">查看开源 Case</a>
+      <a class="help-button help-button--primary" href="#scenario-survey">掃碼填寫問卷</a>
+      <a class="help-button" href="/cases/">檢視開源 Case</a>
     </div>
   </div>
 
@@ -24,40 +24,40 @@ pageClass: help-you-page
     <div class="help-survey-card__heading">
       <span>01</span>
       <div>
-        <strong>WorkBuddy 场景收集调查问卷</strong>
-        <small>扫码后填写你的真实需求</small>
+        <strong>WorkBuddy 場景收集調查問卷</strong>
+        <small>掃碼後填寫你的真實需求</small>
       </div>
     </div>
-    <a href="/help/workbuddy-scenario-survey.png" target="_blank" rel="noreferrer" aria-label="查看 WorkBuddy 场景收集调查问卷二维码大图">
-      <img src="/help/workbuddy-scenario-survey.png" alt="WorkBuddy 场景收集调查问卷二维码" loading="eager">
+    <a href="/help/workbuddy-scenario-survey.png" target="_blank" rel="noreferrer" aria-label="檢視 WorkBuddy 場景收集調查問卷二維碼大圖">
+      <img src="/help/workbuddy-scenario-survey.png" alt="WorkBuddy 場景收集調查問卷二維碼" loading="eager">
     </a>
-    <p>使用手机扫码填写；如果你正在手机上阅读，可以点击图片查看大图后长按识别。</p>
+    <p>使用手機掃碼填寫；如果你正在手機上閱讀，可以點選圖片檢視大圖後長按識別。</p>
   </div>
 </div>
 
 <section class="help-process" aria-labelledby="help-process-title">
   <p class="help-pixel-label">HOW IT WORKS</p>
-  <h2 id="help-process-title">提交之后，我们会怎么做</h2>
+  <h2 id="help-process-title">提交之後，我們會怎麼做</h2>
   <div class="help-process__grid">
     <article>
       <span>01</span>
-      <h3>理解你的场景</h3>
-      <p>了解你现在怎样工作、卡在哪里、已有输入以及希望得到什么结果。</p>
+      <h3>理解你的場景</h3>
+      <p>瞭解你現在怎樣工作、卡在哪裡、已有輸入以及希望得到什麼結果。</p>
     </article>
     <article>
       <span>02</span>
-      <h3>评估解决路径</h3>
-      <p>判断 WorkBuddy 是否适合处理，并梳理可能需要的 Skill、权限和交付方式。</p>
+      <h3>評估解決路徑</h3>
+      <p>判斷 WorkBuddy 是否適合處理，並梳理可能需要的 Skill、許可權和交付方式。</p>
     </article>
     <article>
       <span>03</span>
-      <h3>联系与验证</h3>
-      <p>如果场景需要更多信息，我们会通过问卷中留下的联系方式与你确认，并验证方案。</p>
+      <h3>聯絡與驗證</h3>
+      <p>如果場景需要更多資訊，我們會通過問卷中留下的聯絡方式與你確認，並驗證方案。</p>
     </article>
     <article>
       <span>04</span>
-      <h3>制作开源 Case</h3>
-      <p>具有通用价值的解决方案会被整理成可复现 Case，审核后公开到社区案例集。</p>
+      <h3>製作開源 Case</h3>
+      <p>具有通用價值的解決方案會被整理成可復現 Case，稽核後公開到社群案例集。</p>
     </article>
   </div>
 </section>
@@ -65,20 +65,20 @@ pageClass: help-you-page
 <section class="help-submit-guide" aria-labelledby="help-submit-title">
   <div>
     <p class="help-pixel-label">WHAT TO PREPARE</p>
-    <h2 id="help-submit-title">怎样描述问题，更容易得到帮助</h2>
+    <h2 id="help-submit-title">怎樣描述問題，更容易得到幫助</h2>
   </div>
   <ul>
-    <li><strong>真实场景：</strong>你在什么岗位或任务中遇到了问题。</li>
-    <li><strong>当前做法：</strong>现在需要哪些步骤，大概花多少时间。</li>
-    <li><strong>输入资料：</strong>通常会用到哪些文件、网页、系统或数据。</li>
-    <li><strong>期望结果：</strong>希望 WorkBuddy 最终交付什么，以及怎样算完成。</li>
-    <li><strong>安全边界：</strong>是否涉及账号权限、敏感数据、文件修改或对外发布。</li>
+    <li><strong>真實場景：</strong>你在什麼崗位或任務中遇到了問題。</li>
+    <li><strong>當前做法：</strong>現在需要哪些步驟，大概花多少時間。</li>
+    <li><strong>輸入資料：</strong>通常會用到哪些檔案、網頁、系統或資料。</li>
+    <li><strong>期望結果：</strong>希望 WorkBuddy 最終交付什麼，以及怎樣算完成。</li>
+    <li><strong>安全邊界：</strong>是否涉及賬號許可權、敏感資料、檔案修改或對外發布。</li>
   </ul>
 </section>
 
 <div class="help-note">
-  <strong>关于隐私与联系</strong>
-  <p>请不要在问卷中提交密码、密钥、客户隐私或不方便公开的内部资料。我们只会在需要补充信息或可以推进解决方案时，通过你主动留下的联系方式与你沟通。</p>
+  <strong>關於隱私與聯絡</strong>
+  <p>請不要在問卷中提交密碼、金鑰、客戶隱私或不方便公開的內部資料。我們只會在需要補充資訊或可以推進解決方案時，通過你主動留下的聯絡方式與你溝通。</p>
 </div>
 
 <style>

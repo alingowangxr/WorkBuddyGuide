@@ -7,10 +7,10 @@ import { createPageDescription, createSeoHead } from "./seo";
 const siteUrl = process.env.VITEPRESS_SITE_URL || "https://workbuddy.homes";
 
 export default defineConfig({
-    lang: "zh-CN",
-    title: "WorkBuddy 实战蓝皮书",
-    titleTemplate: ":title · WorkBuddy 实战蓝皮书",
-    description: "从安装使用到 AI 工作系统：27 章 WorkBuddy 实战指南与团队落地方法。",
+    lang: "zh-TW",
+    title: "WorkBuddy 實戰藍皮書",
+    titleTemplate: ":title · WorkBuddy 實戰藍皮書",
+    description: "從安裝使用到 AI 工作系統：27 章 WorkBuddy 實戰指南與團隊落地方法。",
     cleanUrls: true,
     lastUpdated: true,
     srcExclude: ["**/source.md", "plans/**"],
@@ -44,7 +44,7 @@ export default defineConfig({
         {
           name: "keywords",
           content:
-            "WorkBuddy,WorkBuddy 教程,AI Agent,AI 工作系统,Skills,MCP,自动化,多智能体,职场 AI",
+            "WorkBuddy,WorkBuddy 教程,AI Agent,AI 工作系統,Skills,MCP,自動化,多智慧體,職場 AI",
         },
       ],
     ],
@@ -61,11 +61,11 @@ export default defineConfig({
     themeConfig: {
       siteTitle: "WorkBuddy Guide",
       nav: [
-        { text: "首页", link: "/" },
-        { text: "开始阅读", link: "/bluebook/" },
+        { text: "首頁", link: "/" },
+        { text: "開始閱讀", link: "/bluebook/" },
         { text: "案例集", link: "/cases/" },
-        { text: "帮你解决", link: "/help/" },
-        { text: "阅读指南", link: "/reading-guide" },
+        { text: "幫你解決", link: "/help/" },
+        { text: "閱讀指南", link: "/reading-guide" },
         {
           text: "交流群",
           items: [{ component: "GroupQrMenu" }],
@@ -80,14 +80,14 @@ export default defineConfig({
       },
       outline: {
         level: [2, 3],
-        label: "本页目录",
+        label: "本頁目錄",
       },
       docFooter: {
         prev: "上一篇",
         next: "下一篇",
       },
       lastUpdated: {
-        text: "最后更新",
+        text: "最後更新",
         formatOptions: {
           dateStyle: "medium",
           timeStyle: "short",
@@ -95,11 +95,11 @@ export default defineConfig({
       },
       editLink: {
         pattern: "https://github.com/AlephAITech/WorkBuddyGuide/edit/main/docs/:path",
-        text: "在 GitHub 上改进此页",
+        text: "在 GitHub 上改進此頁",
       },
       footer: {
         message:
-          '以真实任务为主线的 WorkBuddy 社区实战读本 · Pixel icons by <a href="https://pixeliconlibrary.com/" target="_blank" rel="noreferrer">HackerNoon</a>',
+          '以真實任務為主線的 WorkBuddy 社群實戰讀本 · Pixel icons by <a href="https://pixeliconlibrary.com/" target="_blank" rel="noreferrer">HackerNoon</a>',
         copyright: "Copyright © 2026 WorkBuddy Guide Contributors",
       },
     },

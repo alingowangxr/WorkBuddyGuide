@@ -1,20 +1,20 @@
 ---
-title: WorkBuddy 使用手册与实战指南｜27 章完整目录
+title: WorkBuddy 使用手冊與實戰指南｜27 章完整目錄
 titleTemplate: false
-description: WorkBuddy 中文使用手册与实战指南，共 27 章，涵盖安装入门、真实案例、Skills、连接器、自动化、多智能体与团队落地。
-breadcrumbTitle: WorkBuddy 实战蓝皮书
+description: WorkBuddy 中文使用手冊與實戰指南，共 27 章，涵蓋安裝入門、真實案例、Skills、聯結器、自動化、多智慧體與團隊落地。
+breadcrumbTitle: WorkBuddy 實戰藍皮書
 ---
 
-# WorkBuddy 使用手册与实战指南
+# WorkBuddy 使用手冊與實戰指南
 
-**27 章完整目录：从安装入门到 AI 工作系统**
+**27 章完整目錄：從安裝入門到 AI 工作系統**
 
-这是一本以真实任务为主线的 WorkBuddy 中文使用手册。你可以从下载安装和第一个任务开始，再进入 Skills、连接器、移动办公、知识管理、专业诊断、内容自动化和多 Agent 团队，最终把一次成功沉淀为团队可复用的 AI 工作系统。
+這是一本以真實任務為主線的 WorkBuddy 中文使用手冊。你可以從下載安裝和第一個任務開始，再進入 Skills、聯結器、移動辦公、知識管理、專業診斷、內容自動化和多 Agent 團隊，最終把一次成功沉澱為團隊可複用的 AI 工作系統。
 
-## 章节目录
+## 章節目錄
 
-- [第一篇 使用手册：先把 WorkBuddy 用起来](%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/index.md)
-- [第二篇 案例篇：从一项任务到一支 AI 团队](%E7%AC%AC%E4%BA%8C%E7%AF%87%20%E6%A1%88%E4%BE%8B%E7%AF%87%EF%BC%9A%E4%BB%8E%E4%B8%80%E9%A1%B9%E4%BB%BB%E5%8A%A1%E5%88%B0%E4%B8%80%E6%94%AF%20AI%20%E5%9B%A2%E9%98%9F/index.md)
-- [第三篇 进阶篇：把案例变成自己的工作系统](%E7%AC%AC%E4%B8%89%E7%AF%87%20%E8%BF%9B%E9%98%B6%E7%AF%87%EF%BC%9A%E6%8A%8A%E6%A1%88%E4%BE%8B%E5%8F%98%E6%88%90%E8%87%AA%E5%B7%B1%E7%9A%84%E5%B7%A5%E4%BD%9C%E7%B3%BB%E7%BB%9F/index.md)
-- [第四篇 岗位与行业落地](%E7%AC%AC%E5%9B%9B%E7%AF%87%20%E5%B2%97%E4%BD%8D%E4%B8%8E%E8%A1%8C%E4%B8%9A%E8%90%BD%E5%9C%B0/index.md)
-- [附录](%E9%99%84%E5%BD%95/index.md)
+- [第一篇 使用手冊：先把 WorkBuddy 用起來](%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8A%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E4%BE%86/index.md)
+- [第二篇 案例篇：從一項任務到一支 AI 團隊](%E7%AC%AC%E4%BA%8C%E7%AF%87%20%E6%A1%88%E4%BE%8B%E7%AF%87%EF%BC%9A%E5%BE%9E%E4%B8%80%E9%A0%85%E4%BB%BB%E5%8B%99%E5%88%B0%E4%B8%80%E6%94%AF%20AI%20%E5%9C%98%E9%9A%8A/index.md)
+- [第三篇 進階篇：把案例變成自己的工作系統](%E7%AC%AC%E4%B8%89%E7%AF%87%20%E9%80%B2%E9%9A%8E%E7%AF%87%EF%BC%9A%E6%8A%8A%E6%A1%88%E4%BE%8B%E8%AE%8A%E6%88%90%E8%87%AA%E5%B7%B1%E7%9A%84%E5%B7%A5%E4%BD%9C%E7%B3%BB%E7%B5%B1/index.md)
+- [第四篇 崗位與行業落地](%E7%AC%AC%E5%9B%9B%E7%AF%87%20%E5%B4%97%E4%BD%8D%E8%88%87%E8%A1%8C%E6%A5%AD%E8%90%BD%E5%9C%B0/index.md)
+- [附錄](%E9%99%84%E9%8C%84/index.md)

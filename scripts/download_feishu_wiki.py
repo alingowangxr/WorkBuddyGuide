@@ -76,7 +76,7 @@ class Node:
 
     @property
     def title(self) -> str:
-        return str(self.data.get("title") or "未命名页面")
+        return str(self.data.get("title") or "未命名頁面")
 
     @property
     def node_token(self) -> str:
@@ -236,14 +236,14 @@ def localize_markdown(markdown: str, node: Node, assets: list[Asset]) -> str:
             result = result.replace(asset.href, local_href)
         if asset.kind == "whiteboard" and asset.token:
             pattern = rf"<whiteboard\b[^>]*(?:token|src)=[\"']{re.escape(asset.token)}[\"'][^>]*/?>"
-            result = re.sub(pattern, f"![画板]({local_href})", result)
+            result = re.sub(pattern, f"![畫板]({local_href})", result)
     return result
 
 
 def export_page(node: Node) -> list[Asset]:
     assert node.directory is not None
     node.directory.mkdir(parents=True, exist_ok=True)
-    print(f"[页面] {node.directory}", flush=True)
+    print(f"[頁面] {node.directory}", flush=True)
     if node.data.get("obj_type") not in {"doc", "docx"}:
         raise RuntimeError(f"Unsupported wiki object type: {node.data.get('obj_type')} ({node.title})")
 
@@ -391,13 +391,13 @@ def main() -> int:
     if workspace not in [base, *base.parents]:
         raise SystemExit("output directory must remain inside the current workspace")
 
-    print("[1/4] 读取知识库页面树", flush=True)
+    print("[1/4] 讀取知識庫頁面樹", flush=True)
     root, space_id = crawl(args.url)
     assign_directories(root, base)
     nodes = walk(root)
-    print(f"      共 {len(nodes)} 个页面，space_id={space_id}", flush=True)
+    print(f"      共 {len(nodes)} 個頁面，space_id={space_id}", flush=True)
 
-    print("[2/4] 导出 Markdown 与完整 XML", flush=True)
+    print("[2/4] 匯出 Markdown 與完整 XML", flush=True)
     all_assets: list[Asset] = []
     export_failures: list[dict[str, str]] = []
     for node in nodes:
@@ -405,9 +405,9 @@ def main() -> int:
             all_assets.extend(export_page(node))
         except Exception as exc:
             export_failures.append({"page": node.title, "error": str(exc)})
-            print(f"[失败] {node.title}: {exc}", file=sys.stderr, flush=True)
+            print(f"[失敗] {node.title}: {exc}", file=sys.stderr, flush=True)
 
-    print(f"[3/4] 下载 {len(all_assets)} 个图片/附件/画板", flush=True)
+    print(f"[3/4] 下載 {len(all_assets)} 個圖片/附件/畫板", flush=True)
     asset_failures: list[dict[str, str]] = []
     downloaded = 0
     skipped = 0
@@ -430,9 +430,9 @@ def main() -> int:
                     }
                 )
             if index % 25 == 0 or index == len(all_assets):
-                print(f"      素材进度 {index}/{len(all_assets)}", flush=True)
+                print(f"      素材進度 {index}/{len(all_assets)}", flush=True)
 
-    print("[4/4] 写入清单并校验", flush=True)
+    print("[4/4] 寫入清單並校驗", flush=True)
     assert root.directory is not None
     manifest = {
         "source_url": args.url,

@@ -1,57 +1,57 @@
 ---
-title: WorkBuddy 社区案例集
-description: 汇集 WorkBuddy 用户提交的真实案例，了解不同场景使用了哪些 Skills、如何执行以及最终呈现了什么效果。
-breadcrumbTitle: 社区案例集
+title: WorkBuddy 社群案例集
+description: 彙集 WorkBuddy 使用者提交的真實案例，瞭解不同場景使用了哪些 Skills、如何執行以及最終呈現了什麼效果。
+breadcrumbTitle: 社群案例集
 aside: false
 outline: false
 pageClass: community-cases-page
 ---
 
-# WorkBuddy 社区案例集
+# WorkBuddy 社群案例集
 
-这里收录由 WorkBuddy 用户提交的真实实践。每个案例都会说明它解决了什么场景、使用了哪些 Skills、在 WorkBuddy 中怎样执行，以及最终交付了什么结果。
+這裡收錄由 WorkBuddy 使用者提交的真實實踐。每個案例都會說明它解決了什麼場景、使用了哪些 Skills、在 WorkBuddy 中怎樣執行，以及最終交付了什麼結果。
 
-社区案例通过完整性、安全性和可读性审核后即可发布；经过进一步复现和编辑的经典任务，未来可能被收录进《WorkBuddy 实战蓝皮书》正文。
+社群案例通過完整性、安全性和可讀性稽核後即可釋出；經過進一步復現和編輯的經典任務，未來可能被收錄進《WorkBuddy 實戰藍皮書》正文。
 
 ## 如何提交 Case
 
-1. 先搜索左侧的社区 Case 和[蓝皮书目录](/bluebook/)，确认场景或任务没有重复。
-2. 阅读[Case 投稿指南](/community/case-contributing)，复制标准模板。
-3. 在 `docs/cases/submissions/` 下新增一个 Case 文件夹。
-4. 写清场景、使用的 Skills、操作过程、实际效果和验收标准。
-5. 本地构建通过后提交 Pull Request，审核合并后会自动出现在左侧案例目录和本页列表中。
+1. 先搜尋左側的社群 Case 和[藍皮書目錄](/bluebook/)，確認場景或任務沒有重複。
+2. 閱讀[Case 投稿指南](/community/case-contributing)，複製標準模板。
+3. 在 `docs/cases/submissions/` 下新增一個 Case 資料夾。
+4. 寫清場景、使用的 Skills、操作過程、實際效果和驗收標準。
+5. 本地構建通過後提交 Pull Request，稽核合併後會自動出現在左側案例目錄和本頁列表中。
 
-::: warning 提交前请自行检查
-如果已有 Case 使用相同目标和流程，请优先补充原案例；如果使用了不同的 Skill、方法或交付方式，请在 PR 中明确说明差异。
+::: warning 提交前請自行檢查
+如果已有 Case 使用相同目標和流程，請優先補充原案例；如果使用了不同的 Skill、方法或交付方式，請在 PR 中明確說明差異。
 :::
 
 <div class="case-intro-actions">
   <a class="case-intro-button case-intro-button--primary" href="/community/case-contributing">提交你的 Case</a>
-  <a class="case-intro-button" href="/bluebook/">阅读蓝皮书</a>
+  <a class="case-intro-button" href="/bluebook/">閱讀藍皮書</a>
 </div>
 
 <section class="case-co-create" aria-labelledby="case-co-create-title">
   <div class="case-co-create__copy">
     <p class="case-co-create__label">CONTRIBUTOR COMMUNITY</p>
-    <h2 id="case-co-create-title">提交 PR 后，加入 WorkBuddy 共创群</h2>
-    <p>如果你正在准备或已经提交 Case PR，欢迎添加微信。我们会邀请你进入 WorkBuddy 共创群，一起讨论案例结构、复现过程、审核建议和蓝皮书后续选题。</p>
-    <strong>添加微信时，请备注：workbuddy共创</strong>
+    <h2 id="case-co-create-title">提交 PR 後，加入 WorkBuddy 共創群</h2>
+    <p>如果你正在準備或已經提交 Case PR，歡迎新增微信。我們會邀請你進入 WorkBuddy 共創群，一起討論案例結構、復現過程、稽核建議和藍皮書後續選題。</p>
+    <strong>新增微信時，請備註：workbuddy共創</strong>
     <ul>
-      <li>交流 Case 选题，避免重复提交。</li>
-      <li>讨论 Skill、操作步骤和结果证明。</li>
-      <li>获取 PR 审核和内容完善建议。</li>
-      <li>参与经典 Case 进入蓝皮书正文的共创。</li>
+      <li>交流 Case 選題，避免重複提交。</li>
+      <li>討論 Skill、操作步驟和結果證明。</li>
+      <li>獲取 PR 稽核和內容完善建議。</li>
+      <li>參與經典 Case 進入藍皮書正文的共創。</li>
     </ul>
   </div>
-  <a class="case-co-create__qr" href="/cases/workbuddy-co-create-wechat.png" target="_blank" rel="noreferrer" aria-label="查看 WorkBuddy 共创联系人微信二维码大图">
-    <img src="/cases/workbuddy-co-create-wechat.png" alt="刘聪NLP 微信二维码，添加时备注 workbuddy共创" loading="lazy">
-    <span>扫码添加微信 · 备注“workbuddy共创”</span>
+  <a class="case-co-create__qr" href="/cases/workbuddy-co-create-wechat.png" target="_blank" rel="noreferrer" aria-label="檢視 WorkBuddy 共創聯絡人微信二維碼大圖">
+    <img src="/cases/workbuddy-co-create-wechat.png" alt="劉聰NLP 微信二維碼，新增時備註 workbuddy共創" loading="lazy">
+    <span>掃碼新增微信 · 備註“workbuddy共創”</span>
   </a>
 </section>
 
 <div class="case-editor-note">
-  <strong>从社区案例到蓝皮书正文</strong>
-  <p>我们会持续观察案例的可复现性、代表性和读者反馈。通过二次验证的经典任务，将在保留原作者署名的前提下进入蓝皮书正式章节。</p>
+  <strong>從社群案例到藍皮書正文</strong>
+  <p>我們會持續觀察案例的可復現性、代表性和讀者反饋。通過二次驗證的經典任務，將在保留原作者署名的前提下進入藍皮書正式章節。</p>
 </div>
 
 <style>

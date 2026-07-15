@@ -1,0 +1,6 @@
+# 第三篇 進階篇：把案例變成自己的工作系統
+
+- [第 22 章 打造skill：將書和影片蒸餾為可執行 Skill](%E7%AC%AC%2022%20%E7%AB%A0%20%E6%89%93%E9%80%A0skill%EF%BC%9A%E5%B0%87%E6%9B%B8%E5%92%8C%E5%BD%B1%E7%89%87%E8%92%B8%E9%A4%BE%E7%82%BA%E5%8F%AF%E5%9F%B7%E8%A1%8C%20Skill/index.md)
+- [第 23 章 其他用法補充：WorkBuddy 實操案例集](%E7%AC%AC%2023%20%E7%AB%A0%20%E5%85%B6%E4%BB%96%E7%94%A8%E6%B3%95%E8%A3%9C%E5%85%85%EF%BC%9AWorkBuddy%20%E5%AF%A6%E6%93%8D%E6%A1%88%E4%BE%8B%E9%9B%86/index.md)
+- [第 24 章 如何進行多 Agent 系統設計](%E7%AC%AC%2024%20%E7%AB%A0%20%E5%A6%82%E4%BD%95%E9%80%B2%E8%A1%8C%E5%A4%9A%20Agent%20%E7%B3%BB%E7%B5%B1%E8%A8%AD%E8%A8%88/index.md)
+- [第 25 章 自動化工作流的可靠性](%E7%AC%AC%2025%20%E7%AB%A0%20%E8%87%AA%E5%8B%95%E5%8C%96%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%9A%84%E5%8F%AF%E9%9D%A0%E6%80%A7/index.md)

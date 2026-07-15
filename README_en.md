@@ -9,7 +9,7 @@
 <p align="center"><strong>From your first task to an AI team</strong></p>
 
 <p align="center">
-  English · <a href="./README.md">简体中文</a> ·
+  English · <a href="./README.md">簡體中文</a> ·
   <a href="https://workbuddy.homes/">Read Online</a> ·
   <a href="./docs/reading-guide.md">Reading Guide</a> ·
   <a href="./CONTRIBUTING_en.md">Contribute</a>
@@ -77,17 +77,17 @@ The site uses **VitePress + Cloudflare Pages + GitHub**. Cloudflare Pages builds
 Thanks to the authors who create and maintain The WorkBuddy Bluebook. Click a card to view the full-size image and scan its QR code.
 
 <p align="center">
-  <a href="./assets/authors/jia-mu-wei-lai-pai.png"><img src="./assets/authors/jia-mu-wei-lai-pai.png" alt="甲木未来派" width="48%"></a>
-  <a href="./assets/authors/mo-yu-xiao-li.png"><img src="./assets/authors/mo-yu-xiao-li.png" alt="摸鱼小李" width="48%"></a>
+  <a href="./assets/authors/jia-mu-wei-lai-pai.png"><img src="./assets/authors/jia-mu-wei-lai-pai.png" alt="甲木未來派" width="48%"></a>
+  <a href="./assets/authors/mo-yu-xiao-li.png"><img src="./assets/authors/mo-yu-xiao-li.png" alt="摸魚小李" width="48%"></a>
 </p>
 
 <p align="center">
-  <a href="./assets/authors/dai-shu-di-ai-ke-zhan.png"><img src="./assets/authors/dai-shu-di-ai-ke-zhan.png" alt="袋鼠帝AI客栈" width="48%"></a>
-  <a href="./assets/authors/liu-cong-nlp.png"><img src="./assets/authors/liu-cong-nlp.png" alt="刘聪NLP" width="48%"></a>
+  <a href="./assets/authors/dai-shu-di-ai-ke-zhan.png"><img src="./assets/authors/dai-shu-di-ai-ke-zhan.png" alt="袋鼠帝AI客棧" width="48%"></a>
+  <a href="./assets/authors/liu-cong-nlp.png"><img src="./assets/authors/liu-cong-nlp.png" alt="劉聰NLP" width="48%"></a>
 </p>
 
 <p align="center">
-  <a href="./assets/authors/cang-he.png"><img src="./assets/authors/cang-he.png" alt="苍何" width="48%"></a>
+  <a href="./assets/authors/cang-he.png"><img src="./assets/authors/cang-he.png" alt="蒼何" width="48%"></a>
 </p>
 
 ## Disclaimer

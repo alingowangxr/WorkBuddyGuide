@@ -14,7 +14,7 @@ const mountLightbox = async () => {
 };
 
 const createDocImage = ({
-  alt = "WorkBuddy 操作截图",
+  alt = "WorkBuddy 操作截圖",
   linked = false,
   optedOut = false,
   roleButton = false,
@@ -152,7 +152,7 @@ describe("ImageLightbox", () => {
     expect(plainImage.dataset.wbZoomable).toBe("");
     expect(plainImage.getAttribute("tabindex")).toBe("0");
     expect(plainImage.getAttribute("role")).toBe("button");
-    expect(plainImage.getAttribute("aria-label")).toContain("WorkBuddy 操作截图");
+    expect(plainImage.getAttribute("aria-label")).toContain("WorkBuddy 操作截圖");
     expect(linkedImage.dataset.wbZoomable).toBeUndefined();
     expect(optedOutImage.dataset.wbZoomable).toBeUndefined();
     expect(existingButtonImage.dataset.wbZoomable).toBeUndefined();
@@ -182,7 +182,7 @@ describe("ImageLightbox", () => {
   });
 
   it.each(["Enter", " "])("opens from the %s key", async (key) => {
-    const image = createDocImage({ alt: "键盘打开示例" });
+    const image = createDocImage({ alt: "鍵盤開啟示例" });
     await mountLightbox();
     image.focus();
 
@@ -212,7 +212,7 @@ describe("ImageLightbox", () => {
   it("decorates images added after client-side navigation", async () => {
     await mountLightbox();
 
-    const image = createDocImage({ alt: "路由切换后的截图" });
+    const image = createDocImage({ alt: "路由切換後的截圖" });
     await new Promise((resolve) => queueMicrotask(resolve));
 
     expect(image.dataset.wbZoomable).toBe("");

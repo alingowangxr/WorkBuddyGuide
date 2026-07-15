@@ -64,7 +64,7 @@ const decoratedImages = new Map<
 >();
 
 const dialogLabel = computed(() =>
-  imageAlt.value ? `图片预览：${imageAlt.value}` : "图片预览",
+  imageAlt.value ? `圖片預覽：${imageAlt.value}` : "圖片預覽",
 );
 const zoomPercentage = computed(() =>
   Math.round(zoomTransform.value.scale * 100),
@@ -101,7 +101,7 @@ const decorateImage = (image: HTMLImageElement) => {
   image.setAttribute("role", "button");
   image.setAttribute(
     "aria-label",
-    image.alt ? `放大查看：${image.alt}` : "放大查看图片",
+    image.alt ? `放大檢視：${image.alt}` : "放大檢視圖片",
   );
 };
 
@@ -433,7 +433,7 @@ onUnmounted(() => {
           ref="closeButton"
           class="wb-image-lightbox__close"
           type="button"
-          aria-label="关闭图片预览"
+          aria-label="關閉圖片預覽"
           @click="closeImage"
         >
           <span aria-hidden="true">×</span>
@@ -465,9 +465,9 @@ onUnmounted(() => {
 
         <p class="wb-image-lightbox__hint" aria-hidden="true">
           <span class="wb-image-lightbox__scale">{{ zoomPercentage }}%</span>
-          滚轮 / 双指缩放 · 拖拽查看
+          滾輪 / 雙指縮放 · 拖拽檢視
           <span class="wb-image-lightbox__key">ESC</span>
-          关闭
+          關閉
         </p>
       </div>
     </Transition>

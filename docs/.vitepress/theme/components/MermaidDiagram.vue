@@ -93,10 +93,10 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <figure ref="container" class="wb-mermaid" aria-label="流程图">
+  <figure ref="container" class="wb-mermaid" aria-label="流程圖">
     <div v-if="svg" class="wb-mermaid__svg" v-html="svg"></div>
     <pre v-else class="wb-mermaid__fallback"><code>{{ graphSource }}</code></pre>
-    <figcaption v-if="error" class="wb-mermaid__error">图表渲染失败：{{ error }}</figcaption>
+    <figcaption v-if="error" class="wb-mermaid__error">圖表渲染失敗：{{ error }}</figcaption>
   </figure>
 </template>
 

@@ -3,12 +3,12 @@ import { resolve } from "node:path";
 
 import type { HeadConfig, PageData, TransformContext } from "vitepress";
 
-const SITE_NAME = "WorkBuddy 实战蓝皮书";
+const SITE_NAME = "WorkBuddy 實戰藍皮書";
 const SITE_ALTERNATE_NAME = "WorkBuddy Guide";
 const ORGANIZATION_NAME = "WorkBuddy Guide Contributors";
 const GITHUB_URL = "https://github.com/AlephAITech/WorkBuddyGuide";
 const DEFAULT_DESCRIPTION =
-  "从安装使用到 AI 工作系统：27 章 WorkBuddy 实战指南与团队落地方法。";
+  "從安裝使用到 AI 工作系統：27 章 WorkBuddy 實戰指南與團隊落地方法。";
 
 function cleanPagePath(page: string): string {
   if (page === "index.md") return "/";
@@ -134,11 +134,11 @@ function breadcrumbName(segment: string): string {
   }
 
   const labels: Record<string, string> = {
-    bluebook: "WorkBuddy 实战蓝皮书",
-    cases: "社区案例集",
-    community: "社区共创",
-    help: "帮你解决",
-    "reading-guide": "WorkBuddy 学习指南",
+    bluebook: "WorkBuddy 實戰藍皮書",
+    cases: "社群案例集",
+    community: "社群共創",
+    help: "幫你解決",
+    "reading-guide": "WorkBuddy 學習指南",
   };
 
   return labels[decodedSegment] || decodedSegment.replace(/[-_]/g, " ");
@@ -158,7 +158,7 @@ function createBreadcrumbs(
     {
       "@type": "ListItem",
       position: 1,
-      name: "首页",
+      name: "首頁",
       item: new URL("/", `${siteUrl}/`).href,
     },
     ...segments.map((segment, index) => {
@@ -246,7 +246,7 @@ export function createSeoHead(
     name: SITE_NAME,
     alternateName: SITE_ALTERNATE_NAME,
     description: DEFAULT_DESCRIPTION,
-    inLanguage: "zh-CN",
+    inLanguage: "zh-TW",
     publisher: { "@id": `${siteUrl}/#organization` },
   };
   const breadcrumbTitle =
@@ -268,7 +268,7 @@ export function createSeoHead(
         name: pageData.title,
         ...(isBluebookPage ? { headline: pageData.title } : {}),
         description,
-        inLanguage: "zh-CN",
+        inLanguage: "zh-TW",
         isPartOf: { "@id": `${siteUrl}/#website` },
         breadcrumb: breadcrumbs
           ? { "@id": `${canonicalUrl}#breadcrumb` }
@@ -298,7 +298,7 @@ export function createSeoHead(
       },
     ],
     ["link", { rel: "canonical", href: canonicalUrl }],
-    ["meta", { property: "og:locale", content: "zh_CN" }],
+    ["meta", { property: "og:locale", content: "zh_TW" }],
     ["meta", { property: "og:site_name", content: SITE_NAME }],
     ["meta", { property: "og:type", content: isBluebookPage ? "article" : "website" }],
     ["meta", { property: "og:title", content: title }],
@@ -308,12 +308,12 @@ export function createSeoHead(
     ["meta", { property: "og:image:type", content: "image/png" }],
     ["meta", { property: "og:image:width", content: "1280" }],
     ["meta", { property: "og:image:height", content: "720" }],
-    ["meta", { property: "og:image:alt", content: "WorkBuddy 实战蓝皮书首页预览" }],
+    ["meta", { property: "og:image:alt", content: "WorkBuddy 實戰藍皮書首頁預覽" }],
     ["meta", { name: "twitter:card", content: "summary_large_image" }],
     ["meta", { name: "twitter:title", content: title }],
     ["meta", { name: "twitter:description", content: description }],
     ["meta", { name: "twitter:image", content: socialImageUrl }],
-    ["meta", { name: "twitter:image:alt", content: "WorkBuddy 实战蓝皮书首页预览" }],
+    ["meta", { name: "twitter:image:alt", content: "WorkBuddy 實戰藍皮書首頁預覽" }],
     [
       "script",
       { type: "application/ld+json" },
