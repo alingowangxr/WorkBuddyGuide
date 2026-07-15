@@ -9,7 +9,7 @@
 <p align="center"><strong>From your first task to an AI team</strong></p>
 
 <p align="center">
-  English · <a href="./README.md">簡體中文</a> ·
+  English · <a href="./README.md">繁體中文</a> ·
   <a href="https://workbuddy.homes/">Read Online</a> ·
   <a href="./docs/reading-guide.md">Reading Guide</a> ·
   <a href="./CONTRIBUTING_en.md">Contribute</a>
@@ -21,7 +21,7 @@
 
 The recommended reading experience is **[workbuddy.homes](https://workbuddy.homes/)**. The website provides full navigation, local search, page outlines, dark mode, rendered diagrams, and mobile support.
 
-The book is currently written primarily in Simplified Chinese. English contributions and translation proposals are welcome.
+The book is currently written primarily in Traditional Chinese (Taiwan). English contributions and translation proposals are welcome.
 
 ## What Is Inside
 

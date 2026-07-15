@@ -9,7 +9,7 @@
 <p align="center"><strong>從第一項任務，到一支 AI 團隊</strong></p>
 
 <p align="center">
-  簡體中文 · <a href="./README_en.md">English</a> ·
+  繁體中文 · <a href="./README_en.md">English</a> ·
   <a href="https://workbuddy.homes/">線上閱讀</a> ·
   <a href="https://workbuddy.homes/cases/">社群案例集</a> ·
   <a href="https://workbuddy.homes/help/">幫你解決</a> ·
